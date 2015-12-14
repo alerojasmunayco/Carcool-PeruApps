@@ -1,0 +1,110 @@
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Roboto', sans-serif;
+    font-weight:400;
+}
+
+/* Carousel*/
+.carousel-inner > img{
+    width: 100%;
+    background-size: cover;
+}
+.carousel-caption {
+    top:56px!important;
+  z-index: 10;
+}
+.carousel-caption h1{
+    font-size:4em!important;
+}
+.carousel-caption h3{
+    font-size:2em!important;
+ }
+.bgblack {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 69%;
+    padding: 2px 46px;
+}
+/*@media (min-width: 768px){
+   .carousel-caption{
+        padding-top: 300px;
+        padding-bottom: 200px;
+    }
+}*/
+
+a:hover{
+    color:black;
+    text-decoration: none;
+}
+.button{
+    color:white;
+     background-color: #80EA52;
+    padding: 1% 6%;
+}
+.imagen{
+    position: relative;
+    right: 17%;
+    vertical-align: middle;
+    width: 14%;
+}
+.busqueda{
+    height: 33px;
+    width: 130%
+}
+input{
+    margin:0px 5px!important;
+}
+.benefits{
+    padding:3% 0%;
+}
+.benefits h2{
+    font-size:3em!important;
+    font-weight:bold!important;   
+    padding:2% 38%;
+}
+.logo{
+    padding:2% 20%;
+}
+.content h4{
+    text-align: center;
+    padding:1% 20%;
+}
+.testimonies{
+    background: url("../img/bg-testimony.jpg")no-repeat;
+    padding: 3% 0;
+}
+.box{
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 2%;
+    height: auto;
+    width: 52%;
+    margin: 14% 40%;
+    box-shadow: -10px 11px 6px 2px rgba(130, 126, 126, 0.94);
+}
+.testimonies h2{
+    font-size:3em!important;
+    font-weight:bold!important;   
+    padding:1% 38%;
+}
+.user{
+    padding:2% 5%
+}
+.marker{
+    padding:45% 35%;
+}
+.title{
+    background-color: #fff;
+     position: absolute;
+      padding: 1% 0;
+      width: 100%;
+}
+.social-media{
+    padding: 3%;
+}
